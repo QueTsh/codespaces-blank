@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <head>
+        <title>KaTma Homepage </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "CSS_folder copy.css">
+    </head>
+
+    <header>
+        <nav class = "top">
+            <ul class = "left-side">
+                <li class = "no"><h1>KaTma</h1></li>
+            </ul>
+            <ul class = "right-side">
+                <li class = "bsheep"><a href = "#Gallery">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body onafterprint = "myFunction()"> 
+    <img src = "IMG-20240903-WA0005.jpg" width="100%" height = "100%">
+    <div id = "Gallery">
+        <h3>Branding house</h3>
+        <h2>We <span>Design</span></h2>
+        <p> Logo Design | Brand Identity | Print Design | Illustration | Brand Strategy</p>
+    </div>
+
+    <div class = "images">
+        <div class = "photos">
+            <img src = "1.png" alt = "flowers" width = "350px" height = "350px">
+            <p class = "services">Web Designs</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "2.png" alt = "life is a journey" width = "350px" height = "350px">
+            <p class = "services"> Creative Designs</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "3.png" alt = "coming soon" width = "350px" height = "350px">
+            <p class = "services"> Brand Identity</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "4.png" alt = "collage" width = "350px" height = "350px">
+            <p class = "services"> Marketing</p>
+        </div>
+        
+    </div>
+
+    <div class = "contacts">
+        <h3>Stay connected</h3>
+        <h2>Contact us</h2>
+        <p>Send through your inquiries today!</p>
+
+        <form action="https://api.web3forms.com/submit" method="POST" onsubmit = "sendEMail(); reset();return false;">
+            
+            <input type="hidden" name="access_key" value="2c787f1b-5659-4356-a7e2-ce00558cdb1a">
+            
+            <label for = "name">Full Name: </label><br>
+            <input type = "text" id = "name" name = "name" placeholder="Enter your name here"><br>
+
+            <label for = "number">Telephone number:</label><br>
+            <input type = "text" id = "number" name = "number" placeholder="Enter telephone number here"><br>
+
+            <label for = "checkbox" class = "checkie">What can we help you with?</label>
+
+            <input type = "checkbox" id = "checkbox1" name = "Websites" value = "Yes" >
+            <label for =  "checkbox1">Websites</label><br>
+
+            <input type = "checkbox" id = "checkbox2" name = "Brochure Design" value = "Yes" >
+            <label for =  "checkbox2">Brochure Designs</label><br>
+
+            <input type = "checkbox" id = "checkbox3" name = "Logo Designs" value = "Yes" >
+            <label for =  "checkbox3">Logo Designs</label><br>
+
+            <input type = "checkbox" id = "checkbox4" name = "Social Media" value = "Yes" >
+            <label for =  "checkbox4">Social Media</label><br>
+            
+            <input type = "checkbox" id = "checkbox5" name = "Monthly Website Package" value = "Yes" >
+            <label for =  "checkbox5">Monthly Website Package</label><br>
+
+            <input type = "checkbox" id = "checkbox6" name = "Other:" value = "Yes" >
+            <label for =  "checkbox6">Other: </label><br>
+
+            <label for = "inquiry">Please state below what you would like use to help you with:</label><br>
+            <textarea name = "message" rows = "10" cols = "30"></textarea>
+            
+            <button type = "submit" value = "Quote me">Quote me</button>
+        </form>
+    </div>    
+
+    </body>
+
+    <footer>
+        <div>
+            <h4>Known Design</h4>
+            <p>CONTACT US </br>OUR SERVICES</br></p>
+            <h4>Follow Us</h4>
+            <p>FACEBOOK<BR>INSTAGRAM<BR></p>
+        </div> 
+    <address>
+        Written by <a href = "sedibelwaneq@gmail.com">Katlego email</a>.<br>
+        Visit us on our social media :<br>
+        Facebook : Katlego Designs<br>
+        15 Rainforest <br>
+        South Africa
+    </address>
+        <hr color="grey" size="1.5cm" width="90%">
+        <p>Katma - All copyrights reserved.</p>
+    </footer>
+    
+</html>
