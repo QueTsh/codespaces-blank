@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+    <head>
+        <title>Katlego</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "CSS_folder.css">
+    </head>
+
+    <header>
+        <nav class = "top">
+            <ul class = "left-side">
+                <li class = "no"><h1>Katlego</h1></li>
+            </ul>
+            <ul class = "right-side">
+                <li class = "bsheep"><a href = "#Gallery">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body onafterprint = "myFunction()"> 
+
+    <div id = "Gallery">
+        <h3>Who we are</h3>
+        <h2>We create your posters</h2>
+        <p> We consult with you and provide you with the means to market your business. We help to market your business, making it more accessible and trendy.</p>
+        </div>
+       
+    <div id = "Gallery">
+        <h3>What we do</h3>
+        <h2>We create your posters</h2>
+        <p> Let us lay a perfect foundation for your "SUCCESS" and help your business thrive online.</p>
+    </div>
+
+    <div class = "images">
+        <div class = "photos">
+            <img src = "1.png" alt = "flowers" width = "350px" height = "350px">
+            <p class = "services">Web Designs</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "2.png" alt = "life is a journey" width = "350px" height = "350px">
+            <p class = "services"> Creative Designs</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "3.png" alt = "coming soon" width = "350px" height = "350px">
+            <p class = "services"> Brand Identity</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "4.png" alt = "collage" width = "350px" height = "350px">
+            <p class = "services"> Marketing</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "5.png" alt = "good morning" width = "350px" height = "350px">
+            <p class = "services"> left overs</p>
+        </div>
+        
+        <div class = "photos">
+            <img src = "6.png" alt = "ty letter" width = "350px" height = "350px">
+            <p class = "services"> Gift cards</p>
+        </div>
+        
+        <div class = "photos">
+            <img src = "7.png" alt = "food" width = "350px" height = "350px">
+            <p class = "services"> Advertisements</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "8.png" alt = "food" width = "350px" height = "350px">
+            <p class = "services"> Festivals</p>
+        </div>
+
+        <div class = "photos">
+            <img src = "9.png" alt = "food" width = "350px" height = "350px">
+            <p class = "services"> Events</p>
+        </div>
+        
+    </div>
+
+    <div class = "contacts">
+        <h3>Stay connected</h3>
+        <h2>Contact us</h2>
+        <p>Send through your inquiries today!</p>
+        <form autocomplete = "on">
+            <label for = "name">Name: </label><br>
+            <input type = "text" id = "name" name = "name"><br>
+            <label for = "sname">Surname:</label><br>
+            <input type = "text" id = "sname"name = "sname"><br>
+            <label for = "number">Telephone number:</label><br>
+            <input tyoe = "number" id = "number" name = "number"><br>
+            <label for = "inquiry">Inquiry: </label><br>
+            <textarea name = "message" rows = "10" cols = "30">Insert your query here...</textarea>
+            <input type = "submit" value = "Submit">
+        </form>
+    </div> 
+
+    <div class = "socials">
+        <a href = "https://www.google.com"><img src = "images-removebg-preview.png" height = "150px" width = "150px"></a>
+        <a href = "https://www.google.com"><img src = "tiktok-logo-on-transparent-background-free-vector-removebg-preview.png" height="150px" width = "150px"></a>
+        <a href = "https://www.google.com"><img src = "0d2dc2d6c6374498c9543135ed8cff30-removebg-preview (1).png" height="150px" width = "150px"></a>
+    </div>    
+
+    <script>
+        function myFunction() {alert("This page is being loaded. Please wait.")}
+    </script>
+
+    </body>
+
+    <footer> 
+    <address>
+        Written by <a href = "sedibelwaneq@gmail.com">Katlego email</a>.<br>
+        Visit us on our social media :<br>
+        Facebook : Katlego Designs<br>
+        15 Rainforest <br>
+        South Africa
+    </address>
+        <hr color="grey" size="1.5cm" width="90%">
+        <p>Owned by Katlego | Made by Queline</p>
+    </footer>
+    
+</html>

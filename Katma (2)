@@ -1,0 +1,19 @@
+<DOCTYPE! html>
+<head>
+    <title>Katlego (1)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <link rel = "stylesheet" href = "Style_2.css">
+</head>
+
+<header>
+    <nav class = "top">
+        <ul class = "left-side">
+            <li class = "no"><h1>Katlego</h1></li>
+        </ul>
+        <ul class = "right-side">
+            <li class = "bsheep"><a href = "#Gallery">Get a Quote</a></li>
+        </ul>
+    </nav>
+</header>
+
+</html>

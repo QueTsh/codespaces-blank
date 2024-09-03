@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(253, 250, 240);
+    padding: 0;
+    margin: 0;
+
+}
+h1 {
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+}
+.skip-link{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    color: black;
+    
+}
